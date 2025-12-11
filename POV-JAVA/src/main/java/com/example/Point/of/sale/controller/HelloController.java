@@ -12,7 +12,7 @@ public class HelloController {
     public String hello(){
         return "Hello from spring boot application :)";
     }
-
+//
     @GetMapping("/user")
     public String getUsers(){
         return "Users";
